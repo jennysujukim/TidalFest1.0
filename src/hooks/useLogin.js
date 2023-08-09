@@ -17,7 +17,6 @@ export const useLogin = () => {
             // Authenticate user
             const userCredential = await signInWithEmailAndPassword(auth, email, password)
             const user = userCredential.user;
-            console.log(user)
 
             // Dispatch action to update user state in the context
             dispatch({ type: 'LOGIN', payload: user })
