@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useLogin } from '../../hooks/useLogin';
-import { useAuthContext } from '../../hooks/useAuthContext';
 
 import { TextField } from "@mui/material";
 
@@ -14,7 +13,6 @@ function LoginForm() {
     const [password, setPassword] = useState('');
 
     const { login, error, isPending } = useLogin();
-    const { user } = useAuthContext();
 
     const handleLogin = (e) => {
         e.preventDefault();
