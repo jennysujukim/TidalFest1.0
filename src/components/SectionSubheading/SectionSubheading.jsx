@@ -1,7 +1,7 @@
 import { Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
-function SectionSubheading({text}) {
+function SectionSubHeading({text}) {
     const Date = styled(Typography)(({theme}) => ({
         as:"span",
         fontFamily: "Montserrat",
@@ -42,4 +42,4 @@ function SectionSubheading({text}) {
     )
 }
 
-export default SectionSubheading
+export default SectionSubHeading

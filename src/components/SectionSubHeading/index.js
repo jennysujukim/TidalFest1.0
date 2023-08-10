@@ -1,3 +1,3 @@
-import SectionSubheading from "./SectionSubHeading";
+import SectionSubHeading from "./SectionSubHeading";
 
-export default SectionSubheading;
+export default SectionSubHeading;
